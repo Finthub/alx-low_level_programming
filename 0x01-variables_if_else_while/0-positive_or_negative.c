@@ -10,7 +10,7 @@
 *Return: 0 
 */
 
- Int main (void)
+ int main (void)
 {
 	int n;
 
