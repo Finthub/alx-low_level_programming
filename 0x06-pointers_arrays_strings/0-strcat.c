@@ -15,14 +15,13 @@ int main(void)
 
 	printf("%s\n", s1);
 	printf("%s\n", s2);
-    for (i=0, i<98, i++)
-{   for (k=0, k<98, k++)
-  {
-	ptr[k]=s1[i];
-  }    
+    for (i=0, i<strlen(s1), i++)
+{   
+	ptr[i]=s1[i];
+      
 } 
-	for (j=0, s1[j] !='\0', j++)
-{       for (k=98, k<(strlen(s1)+strlen(s2)), k++)
+	for (j = 0, s1[j] = '\0', j++)
+{       for (k = strlen(s1)++, k>(strlen(s1)+strlen(s2)), k++)
   {
         ptr[k]=s1[j];
   } 
